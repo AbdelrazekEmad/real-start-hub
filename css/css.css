@@ -206,6 +206,12 @@ header .owl-nav .owl-prev {
   margin-inline: 1rem;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .gallary__tabs li {
+    margin-inline: 0.25rem;
+  }
+}
+
 .gallary__tabs .active {
   border-bottom: 2px solid #6c757d;
 }
