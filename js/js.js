@@ -102,25 +102,6 @@
 //   console.log("en owl done");
 // };
 
-// Start header Slider
-$(".owl-carousel").owlCarousel({
-  loop: true,
-  margin: 0,
-  nav: true,
-  navSpeed: 500,
-  autoplay: true,
-  autoplaySpeed: 650,
-  animateOut: "fadeOut",
-  navText: [
-    "<i class='fa-solid fa-arrow-left'></i>",
-    "<i class='fa-solid fa-arrow-right'></i>",
-  ],
-  responsive: {
-    0: {
-      items: 1,
-    },
-  },
-});
 // End header Slider
 
 // Start Features Tabs

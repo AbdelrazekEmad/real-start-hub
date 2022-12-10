@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
     <!-- Css for fontawesome-free v6.2.1 -->
     <link rel="stylesheet" href="css/Vendors/all.min.css">
     <!-- Css for Bootstrap v5.2.3 -->
-    <link rel="stylesheet" href="css/Vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Vendors/bootstrap.rtl.min.css">
     <!-- Css for owl.carousel v2.3.4 -->
     <link rel="stylesheet" href="css/Vendors/owl.carousel.min.css">
     <link rel="stylesheet" href="css/Vendors/owl.theme.default.min.css">
@@ -31,18 +31,19 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#head">Home</a>
+                        <a class="nav-link active" aria-current="page" data-lang="home" href="#head">الرئيسية</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-us">About Us</a>
+                        <a class="nav-link" data-lang="about" href="#about-us">حولنا</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#gallary">Gallary</a>
+                        <a class="nav-link" data-lang="gallary" href="#gallary">المعرض</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                        <a class="nav-link" data-lang="contact" href="#contact-us">تواصل معنا</a>
                     </li>
-                    <span class=" border-light px-ms-0 px-lg-1 py-2"><a class="navbar__select text-decoration-none" href="index-rtl.html">AR</a></span>
+                    <span class=" border-light px-ms-0 px-lg-1 py-2"><a class="navbar__select text-decoration-none"
+                            href="index.html">EN</a></span>
                 </ul>
             </div>
         </div>
@@ -55,39 +56,34 @@
             <div class="item header__slider header__slider--1 ">
                 <div class="container">
                     <div class="header__text text-white">
-                        <h2 class="fw-light lh-base fs-1">Lorem ipsum dolor sit amet
-                            consectquis nostrud exercitation
-                            ullamco laboris nisi ut aliquip.
+                        <h2 class="fw-light lh-base fs-1" data-lang="slider_text1">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى
+                            أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
                         </h2>
                         <button class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                            data-lang="lernbtn">LEARN
-                            MORE</button>
+                            data-lang="lernbtn">أعرف المزيد</button>
                     </div>
                 </div>
             </div>
             <div class="item header__slider header__slider--2">
                 <div class="container">
                     <div class="header__text text-white">
-                        <h2 class="fw-light lh-base fs-1">Voluptatem accusantium doloremque
-                            laudantium totam rem aperiam
-                            eaque ipsa quae.
+                        <h2 class="fw-light lh-base fs-1" data-lang="slider_text2">كان لوريم إيبسوم ولايزال المعيار للنص
+                            الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها
+                            من نص.
                         </h2>
                         <button class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                            data-lang="lernbtn">LEARN
-                            MORE</button>
+                            data-lang="lernbtn">أعرف المزيد</button>
                     </div>
                 </div>
             </div>
             <div class="item header__slider header__slider--3">
                 <div class="container">
                     <div class="header__text text-white">
-                        <h2 class="fw-light lh-base fs-1">Tempora incidunt ut labore dolore
-                            magnam aliquam voluptatem
-                            minima.
+                        <h2 class="fw-light lh-base fs-1" data-lang="slider_text3">لتكوّن كتيّب بمثابة دليل أو مرجع شكلي
+                            لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص.
                         </h2>
                         <button class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                            data-lang="lernbtn">LEARN
-                            MORE</button>
+                            data-lang="lernbtn">أعرف المزيد</button>
                     </div>
                 </div>
             </div>
@@ -102,81 +98,67 @@
                 <ul class="list-unstyled d-flex justify-content-around flex-wrap">
                     <li class="features__tabs fs-6 mx-2 active" data-btn=".one">
                         <div class="features__icon"><i class="fa-solid fa-bullseye"></i></div>
-                        <span class="ms-2">Targeted Branding</span>
+                        <span class="ms-2">العلامة التجارية المستهدفة</span>
                     </li>
                     <li class="features__tabs fs-6 mx-2" data-btn=".two">
                         <div class="features__icon"><i class="fa-solid fa-location-dot"></i></div>
-                        <span class="ms-2">
-                            Geolocating Features</span>
+                        <span class="ms-2">ميزات تحديد الموقع الجغرافي</span>
                     </li>
                     <li class="features__tabs fs-6 mx-2" data-btn=".three">
                         <div class="features__icon"><i class="fa-solid fa-chess-knight"></i></div>
-                        <span class="ms-2">
-                            Marketing Strategy</span>
+                        <span class="ms-2"> استراتيجية التسويق</span>
                     </li>
                     <li class="features__tabs fs-6 mx-2" data-btn=".four">
                         <div class="features__icon"><i class="fa-solid fa-anchor"></i></div>
-                        <span class="ms-2">
-                            On Page Navigation</span>
+                        <span class="ms-2">في تصفح الصفحة</span>
                     </li>
                 </ul>
             </div>
             <div class="features__content d-flex mt-lg-5 mt-md-1">
                 <div class="features__info one">
-                    <h2 class=" fw-normal text-muted text-center">Neque porro quisquam dolorem ipsum quia dolor sit amet
+                    <h2 class=" fw-normal text-muted text-center">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي
+                        الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر
                     </h2>
                     <div class="dialog mt-lg-5 mt-md-1 gap-4 fw-light lh-lg d-flex">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, toicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem.</p>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiamam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem.</p>
+                        <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                            إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما</p>
+                        <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                            إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما</p>
                     </div>
                 </div>
                 <div class="features__info two">
-                    <h2 class=" fw-normal text-muted text-center ">Many appealing ways to present information</h2>
+                    <h2 class=" fw-normal text-muted text-center ">كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ
+                        القرن الخامس عشر</h2>
                     <div class="dialog mt-lg-5 mt-md-1 gap-4 fw-light lh-lg d-flex">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem.</p>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem.</p>
+                        <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                            إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما</p>
+                        <p>هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                            إدخال بعض النوادر أو الكلمات العشوائية إلى النص.</p>
                     </div>
                 </div>
                 <div class="features__info three">
-                    <h2 class=" fw-normal text-muted text-center">Several appealing ways to present information</h2>
+                    <h2 class=" fw-normal text-muted text-center">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي
+                        الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر</h2>
                     <div class="dialog mt-lg-5 mt-md-1 gap-4 fw-light lh-lg d-flex">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inves et quasi
-                            architecto beatae vitae dicta sunt explicabo. Nemo enimam voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolorestione</p>
-                        <p>tis unde omnis iste natus error sit voluptatem accusantium doloremquae ab illo inventore
-                            veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem.</p>
+                        <p>هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                            إدخال بعض النوادر أو الكلمات العشوائية إلى النص.</p>
+                        <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                            إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما</p>
                     </div>
                 </div>
                 <div class="features__info four">
-                    <h2 class=" fw-normal text-muted text-center">Numerous appealing ways to present information</h2>
+                    <h2 class=" fw-normal text-muted text-center">كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن
+                        الخامس عشر</h2>
                     <div class="dialog mt-lg-5 mt-md-1 gap-4 fw-light lh-lg d-flex">
-                        <p> iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vi Nemo enim ipsam
-                            asptur magni dolores eos qui ratione
-                            voluptatem.</p>
-                        <p>Sed ut perste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis eicabo. Nemo enim
-                            ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolm.</p>
+                        <p> هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                            إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما</p>
+                        <p>هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر
+                            إدخال بعض النوادر أو الكلمات العشوائية إلى النص.</p>
                     </div>
                 </div>
             </div>
@@ -194,11 +176,11 @@
                             <img src="imgs/interior_1.webp" alt="interior_1">
                         </div>
                         <div class="project__overlay ">
-                            <h5 class="fw-light"><span class="fw-bold">Kitchen</span> Design</h5>
-                            <p class="fw-light">Excepteur sint occaecat cupidatat non<br>proident sunt in culpa.</p>
+                            <h5 class="fw-light">تصميم <span class="fw-bold">المطبخ</span></h5>
+                            <p class="fw-light">لوريم إيبسوم هو ببساطة نص شكلي</p>
                             <button
                                 class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                                data-lang="lernbtn">LEARN MORE</button>
+                                data-lang="lernbtn">أعرف المزيد</button>
                         </div>
                     </div>
                 </div>
@@ -208,11 +190,11 @@
                             <img src="imgs/interior_2.webp" alt="interior_2">
                         </div>
                         <div class="project__overlay ">
-                            <h5 class="fw-light"><span class="fw-bold">Living Room</span> Design</h5>
-                            <p class="fw-light">Excepteur sint occaecat cupidatat non<br>proident sunt in culpa.</p>
+                            <h5 class="fw-light">تصميم <span class="fw-bold">غرفة المعيشة</span></h5>
+                            <p class="fw-light">لوريم إيبسوم هو ببساطة نص شكلي</p>
                             <button
                                 class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                                data-lang="lernbtn">LEARN MORE</button>
+                                data-lang="lernbtn">أعرف المزيد</button>
                         </div>
                     </div>
                 </div>
@@ -222,11 +204,11 @@
                             <img src="imgs/interior_3.webp" alt="interior_3">
                         </div>
                         <div class="project__overlay ">
-                            <h5 class="fw-light"><span class="fw-bold">Bathroom</span> Design</h5>
-                            <p class="fw-light">Excepteur sint occaecat cupidatat non<br>proident sunt in culpa.</p>
+                            <h5 class="fw-light">تصميم <span class="fw-bold">المرحاض</span></h5>
+                            <p class="fw-light">لوريم إيبسوم هو ببساطة نص شكلي</p>
                             <button
                                 class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                                data-lang="lernbtn">LEARN MORE</button>
+                                data-lang="lernbtn">أعرف المزيد</button>
                         </div>
                     </div>
                 </div>
@@ -238,43 +220,31 @@
     <!-- Start About Us -->
     <section id="about-us" class="about-us">
         <div class="container">
-            <h2 class="text-center mb-5 fw-light">About Our Team</h2>
+            <h2 class="text-center mb-5 fw-light">حول فريقنا</h2>
             <div class="team d-flex gap-3">
                 <div class="person d-flex flex-column align-items-center">
                     <div class="person__img">
                         <img src="imgs/team_1.webp" alt="person">
                     </div>
-                    <h3 class="mt-4 fw-light">Sarah May</h3>
-                    <h4>CEO</h4>
-                    <p class="fw-light text-center fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium
-                        doloremque laudantium,
-                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                        dicta sunt explicabo.</p>
+                    <h3 class="mt-4 fw-light">سارة ماي</h3>
+                    <h4>مدير تنفيزي</h4>
+                    <p class="fw-light text-center fs-6">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
                 </div>
                 <div class="person d-flex flex-column align-items-center">
                     <div class="person__img">
                         <img src="imgs/team_2.webp" alt="person">
                     </div>
-                    <h3 class="mt-4 fw-light">Thomas Brown</h3>
-                    <h4>Creative Director</h4>
-                    <p class="fw-light text-center fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium
-                        doloremque laudantium,
-                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                        dicta sunt explicabo.</p>
+                    <h3 class="mt-4 fw-light">توماس براون</h3>
+                    <h4>مخرج سنمائي</h4>
+                    <p class="fw-light text-center fs-6">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
                 </div>
                 <div class="person d-flex flex-column align-items-center">
                     <div class="person__img">
                         <img src="imgs/team_3.webp" alt="person">
                     </div>
-                    <h3 class="mt-4 fw-light">Howard Branson</h3>
-                    <h4>PR Specialist</h4>
-                    <p class="fw-light text-center fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium
-                        doloremque laudantium,
-                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                        dicta sunt explicabo.</p>
+                    <h3 class="mt-4 fw-light">هاورد بروسون</h3>
+                    <h4>أخصائي علاقات عامة</h4>
+                    <p class="fw-light text-center fs-6">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
                 </div>
             </div>
         </div>
@@ -286,27 +256,18 @@
         <div class="team-features-wrapper container d-flex text-white gap-lg-5 gap-md-3">
             <div class="team-feature">
                 <div class="icon"><i class="fa-regular fa-file-lines"></i></div>
-                <h6 class="mt-4 fw-bold">Nemo enim ipsam voluptatem</h6>
-                <p class="fs-6 fw-light mt-3">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                    consectetur, adipisci
-                    velit, sed
-                    quia non numquam eius modi tempora incidunt ut labor.</p>
+                <h6 class="mt-4 fw-bold">لوريم إيبسوم هو ببساطة نص شكلي</h6>
+                <p class="fs-6 fw-light mt-3">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
             </div>
             <div class="team-feature">
                 <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
-                <h6 class="mt-4 fw-bold">Nemo enim ipsam voluptatem</h6>
-                <p class="fs-6 fw-light mt-3">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                    consectetur, adipisci
-                    velit, sed
-                    quia non numquam eius modi tempora incidunt ut labor.</p>
+                <h6 class="mt-4 fw-bold">لوريم إيبسوم هو ببساطة نص شكلي</h6>
+                <p class="fs-6 fw-light mt-3">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
             </div>
             <div class="team-feature">
                 <div class="icon"><i class="fa-solid fa-bullseye"></i></div>
-                <h6 class="mt-4 fw-bold">Nemo enim ipsam voluptatem</h6>
-                <p class="fs-6 fw-light mt-3">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                    consectetur, adipisci
-                    velit, sed
-                    quia non numquam eius modi tempora incidunt ut labor.</p>
+                <h6 class="mt-4 fw-bold">لوريم إيبسوم هو ببساطة نص شكلي</h6>
+                <p class="fs-6 fw-light mt-3">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
             </div>
 
         </div>
@@ -317,20 +278,15 @@
     <section id="gallary" class="gallary">
         <div class="container">
             <div class="gallary__text text-center">
-                <h2 class="fw-light">Check out some of our<br>latest and greatest projects</h2>
-                <p class="pt-5 mx-lg-auto mx-md-auto mx-2 text-muted fw-light">Sed ut perspiciatis unde omnis iste natus
-                    error sit
-                    voluptatem
-                    accusantium doloremque
-                    laudantium, totam
-                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
+                <h2 class="fw-light">تحقق من بعض من<br>أحدث وأكبر المشاريع</h2>
+                <p class="pt-5 mx-lg-auto mx-md-auto mx-2 text-muted fw-light">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
             </div>
             <div class="gallary__main mt-5">
                 <ul class="gallary__tabs mb-4 text-muted d-flex justify-content-center p-0">
-                    <li class="active" data-gallary=".all">ALL</li>
-                    <li data-gallary=".house">House</li>
-                    <li data-gallary=".skyscraper">SKYSCRAPER</li>
-                    <li data-gallary=".interior">INTERIOR</li>
+                    <li class="active" data-gallary=".all">كل</li>
+                    <li data-gallary=".house">منزل</li>
+                    <li data-gallary=".skyscraper">ناطحة سحاب</li>
+                    <li data-gallary=".interior">تصميم داخلي</li>
                 </ul>
                 <div class="gallary__content">
                     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 m-0 ">
@@ -340,10 +296,10 @@
                                     <img src="imgs/project1.webp" alt="project1">
                                 </div>
                                 <div class="project__overlay ">
-                                    <h5 class="fw-light"><span class="fw-bold">Lorem</span> Ipsum</h5>
+                                    <h5 class="fw-light"><span class="fw-bold">لوريم</span> إيبسوم</h5>
                                     <button
                                         class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                                        data-lang="lernbtn">SEE PROJECT</button>
+                                        data-lang="lernbtn">أطلع علي المشروع</button>
                                 </div>
                             </div>
                         </div>
@@ -353,10 +309,10 @@
                                     <img src="imgs/project2.webp" alt="project">
                                 </div>
                                 <div class="project__overlay ">
-                                    <h5 class="fw-light"><span class="fw-bold">Lorem</span> Ipsum</h5>
+                                    <h5 class="fw-light"><span class="fw-bold">لوريم</span> إيبسوم</h5>
                                     <button
                                         class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                                        data-lang="lernbtn">SEE PROJECT</button>
+                                        data-lang="lernbtn">أطلع علي المشروع</button>
                                 </div>
                             </div>
                         </div>
@@ -366,10 +322,10 @@
                                     <img src="imgs/project3.webp" alt="project3">
                                 </div>
                                 <div class="project__overlay ">
-                                    <h5 class="fw-light"><span class="fw-bold">Lorem</span> Ipsum</h5>
+                                    <h5 class="fw-light"><span class="fw-bold">لوريم</span> إيبسوم</h5>
                                     <button
                                         class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                                        data-lang="lernbtn">SEE PROJECT</button>
+                                        data-lang="lernbtn">أطلع علي المشروع</button>
                                 </div>
                             </div>
                         </div>
@@ -379,10 +335,10 @@
                                     <img src="imgs/project4.webp" alt="project4">
                                 </div>
                                 <div class=" project__overlay ">
-                                    <h5 class=" fw-light"><span class="fw-bold">Lorem</span> Ipsum</h5>
+                                    <h5 class=" fw-light"><span class="fw-bold">لوريم</span> إيبسوم</h5>
                                     <button
                                         class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                                        data-lang="lernbtn">SEE PROJECT</button>
+                                        data-lang="lernbtn">أطلع علي المشروع</button>
                                 </div>
                             </div>
                         </div>
@@ -392,10 +348,10 @@
                                     <img src="imgs/project5.webp" alt="project5">
                                 </div>
                                 <div class="project__overlay ">
-                                    <h5 class="fw-light"><span class="fw-bold">Lorem</span> Ipsum</h5>
+                                    <h5 class="fw-light"><span class="fw-bold">لوريم</span> إيبسوم</h5>
                                     <button
                                         class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                                        data-lang="lernbtn">SEE PROJECT</button>
+                                        data-lang="lernbtn">أطلع علي المشروع</button>
                                 </div>
                             </div>
                         </div>
@@ -405,10 +361,10 @@
                                     <img src="imgs/project6.webp" alt="project6">
                                 </div>
                                 <div class="project__overlay ">
-                                    <h5 class="fw-light"><span class="fw-bold">Lorem</span> Ipsum</h5>
+                                    <h5 class="fw-light"><span class="fw-bold">لوريم</span> إيبسوم</h5>
                                     <button
                                         class="btn text-white fw-bold px-5 py-2 mt-4 border-white rounded-5 main__btn--hover"
-                                        data-lang="lernbtn">SEE PROJECT</button>
+                                        data-lang="lernbtn">أطلع علي المشروع</button>
                                 </div>
                             </div>
                         </div>
@@ -422,33 +378,28 @@
     <!-- Start Contact us  -->
     <section class="contact-us" id="contact-us">
         <div class="container">
-            <h2 class="text-center fw-light">Contact Us<br>We'd love to hear from you</h2>
+            <h2 class="text-center fw-light">تواصل معنا<br>نحب أن نسمع منك</h2>
             <div class="row mt-5 ">
                 <div class="col-lg-4 col-md-6 col-sm-12 fw-light">
-                    <h6 class="fw-bold">Enquiries</h6>
-                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
-                        saepe eveniet ut et
-                        voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a
-                        sapiente delectus.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua.</p>
+                    <h6 class="fw-bold">استفسارات</h6>
+                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما</p>
+                    <p>لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center fw-light">
-                    <h6 class="fw-bold">Details</h6>
+                    <h6 class="fw-bold">تفاصيل</h6>
                     <p>Kiewit Building<br>200 Avenue Street , Chicago</p>
                     <p>01022674132<br>abdelrazekemad123@gmail.com
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 fw-light">
-                    <h6 class="fw-bold">Leave A Message</h6>
+                    <h6 class="fw-bold">أترك رسالة</h6>
                     <form>
-                        <input type="text" class="form-control input-1 p-3" placeholder="Your Name">
-                        <input type="email" class="form-control input-2 p-3" placeholder="Your E-mail">
-                        <textarea class="form-control input-3 p-3" placeholder="Your Massage"
+                        <input type="text" class="form-control input-1 p-3" placeholder="الاسم">
+                        <input type="text" class="form-control input-2 p-3" placeholder="الايميل">
+                        <textarea class="form-control input-3 p-3" placeholder="رسالتك"
                             id="floatingTextarea"></textarea>
                         <button class="btn text-dark fw-bold px-4 py-2 mt-4 border-dark rounded-5"
-                            data-lang="lernbtn">SEND FORM</button>
+                            data-lang="lernbtn">إرسال</button>
                     </form>
                 </div>
             </div>
@@ -464,15 +415,10 @@
                     <img class="navbar-brand" src="imgs/logo.webp" alt="logo">
                 </div>
                 <div class="col-5">
-                    <p class="text-muted fw-light fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque laudantium,
-                        totam
-                        rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
-                        sunt
-                        explicabo.</p>
+                    <p class="text-muted fw-light fs-6">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما</p>
                 </div>
                 <div class="col">
-                    <h4>Social Profiles</h4>
+                    <h4 class="mb-4">مواقع التواصل الاجتماعي</h4>
                     <div class="d-flex justify-content-around">
                         <div class="icon">
                             <i class="fa-brands fa-twitter"></i>
@@ -496,9 +442,7 @@
                 </div>
             </div>
         </div>
-        <span class="py-2 d-block mx-auto fw-light text-center">&copy; Copyright 2022 Real Estate. Free Landing Page
-            templete
-            coded by
+        <span class="py-2 d-block mx-auto fw-light text-center">&copy;  حقوق الطبع والنشر 2022 Real Estate. نموذج مجاني للصفحة المقصودة تم ترميزه بواسطة
             <a class="fw-bold text-dark text-decoration-none"
                 href="https://github.com/AbdelrazekEmad">A.Razek</a></span>
     </Footer>
@@ -513,7 +457,7 @@
     <!-- Js for owl.carousel v2.3.4 -->
     <script src="js/Vendors/owl.carousel.min.js"></script>
     <!-- Script For owl-carousel -->
-    <script src="js/owl-carousel.js"></script>
+    <script src="js/owl-carousel-rtl.js"></script>
     <!-- main JavaScript File -->
     <script src="js/js.js"></script>
 </body>
