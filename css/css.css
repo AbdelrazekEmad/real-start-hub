@@ -192,6 +192,11 @@ header .owl-nav .owl-prev {
 .gallary__text p {
   width: 40%;
 }
+@media (max-width: 768px) {
+  .gallary__text p {
+    width: 100%;
+  }
+}
 .gallary__tabs {
   list-style: none;
   text-align: center;
