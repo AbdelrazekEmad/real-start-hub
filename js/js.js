@@ -102,6 +102,7 @@
 //   console.log("en owl done");
 // };
 
+// Start header Slider
 $(".owl-carousel").owlCarousel({
   loop: true,
   margin: 0,
@@ -120,7 +121,9 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+// End header Slider
 
+// Start Features Tabs
 let tabs = document.querySelectorAll(".features__tabs");
 let tabsArray = Array.from(tabs);
 let contentBlocks = document.querySelectorAll(".features__info");
@@ -138,3 +141,34 @@ tabsArray.forEach((ele) => {
     document.querySelector(e.currentTarget.dataset.btn).style.display = "block";
   });
 });
+// End Features Tabs
+
+// Start Gallary filter
+
+let filterTabs = document.querySelectorAll(".gallary__tabs li");
+let gallaryContent = Array.from(
+  document.querySelectorAll(".gallary__content .row .col")
+);
+
+filterTabs.forEach((tab) => {
+  tab.addEventListener("click", handilClassAcive);
+  tab.addEventListener("click", handilGallaryContent);
+});
+
+function handilClassAcive() {
+  filterTabs.forEach((tab) => {
+    tab.classList.remove("active");
+    this.classList.add("active");
+  });
+}
+
+function handilGallaryContent() {
+  gallaryContent.forEach((box) => {
+    box.style.display = "none";
+  });
+  document.querySelectorAll(this.dataset.gallary).forEach((el) => {
+    el.style.display = "block";
+  });
+}
+
+// End Gallary filter
